@@ -1,0 +1,10 @@
+server:
+  context-path: /sell
+spring:
+  datasource:
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/wechat?characterEncoding=utf8&useSSL=false
+  jpa:
+    show-sql: true
